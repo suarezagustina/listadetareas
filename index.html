@@ -18,7 +18,17 @@
 <body>
     <header></header>
     <main>
-        
+        <div class="container">
+            <h1>Lista de tareas</h1>
+            <div class="form-group">
+              <label class="mb-2" for="tarea">Nueva tarea:</label>
+              <input type="text" class="form-control" id="tarea">
+            </div>
+            <button type="button" class="btn btn-primary mt-3" onclick="agregarTarea()">Agregar tarea</button>
+            <hr>
+            <ul id="lista" class="list-group">
+            </ul>
+          </div>
     </main>
     <footer></footer>
     <script src="./js/listadetareas.js"></script>
